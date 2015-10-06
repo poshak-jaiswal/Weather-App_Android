@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">94043</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_units_label">Pick Your Units</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <!-- Default temperature units -->
+    <string name="pref_units_metric" translatable="false">Metric</string>
+
+    <string name="pref_units_imperial" translatable="false">Imperial</string>
+    <!-- Default temperature units -->
+   <!-- <array name="pref_units_values" translatable="false">values</array> -->
+
+    <string-array name="pref_units_options">
+        <item name="pref_units_metric">Metric</item>
+
+        <item name="pref_units_imperial">Imperial</item>
+    </string-array>
+    <string-array name="pref_units_values">
+        <item name="pref_units_metric">Metric</item>
+
+        <item name="pref_units_imperial">Imperial</item>
+    </string-array>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share Info.</string>
+
+</resources>
